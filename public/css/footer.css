@@ -1,0 +1,24 @@
+body {
+    min-height: 100vh;
+    padding-bottom: 97px;
+}
+
+footer {
+    background-color: #dfdfdf;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    box-shadow: 0px 0px 120px #888888;
+    z-index: -1;
+}
+
+footer div {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+footer div p {
+    margin-top: 5px;
+    text-align: center;
+    color: gray;
+}

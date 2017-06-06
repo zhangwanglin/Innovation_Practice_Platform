@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>创新实践 - 登录</title>
+
+    <link type="text/css" rel="stylesheet" href="css/login.css"/>
+    <link type="text/css" rel="stylesheet" href="css/header.css"/>
+    <link type="text/css" rel="stylesheet" href="css/footer.css"/>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="brand"><a href="index.html"><img src="img/hdu_logo.png"></a></div>
+    <ul>
+        <li><a class="t1 header-link" href="index.html">首页</a></li>
+        <li><a class="t1 header-link" href="project_show.html">项目展示</a></li>
+        <li><a class="t1 header-link" href="resource_share.html">资源共享</a></li>
+        <li><a class="t1 header-link" href="user_center.html">个人中心</a></li>
+        <li id="btnLogin"><button class="login t1"><a href="login.html">登录</a></button></li>
+        <li id="userCenter"><button class="login t1"><a href="#"></a></button></li>
+    </ul>
+</header>
+
+<main>
+    <div class="container">
+        <div class="t1 main-login">
+            <div class="form">
+                <p>用户名：&emsp;<input id="username" type="text" required="required" /></p>
+                <p>密&emsp;码：&emsp;<input id="password" type="password" required="required" /></p>
+                <div id="error" class="t1">
+                </div>
+                <input class="t1" id="submit" type="submit" value="登&emsp;&emsp;录" />
+            </div>
+            <a class="reg" href="register.html">没有账号？点此注册!</a>
+        </div>
+    </div>
+    <!--<!DOCTYPE html>-->
+    <!--<html>-->
+
+    <!--<head>-->
+        <!--<meta charset="UTF-8"/>-->
+        <!--<title>Test</title>-->
+        <!--<link rel="stylesheet" href="/stylesheets/style.css">-->
+    <!--</head>-->
+    <!--<body>-->
+    <!--<header>-->
+        <!--<h1><%= title %></h1>-->
+    <!--</header>-->
+    <!--<nav>-->
+        <!--<span><a title="主页" href="/">home</a></span>-->
+        <!--<span><a title="登陆" href="/login">login</a></span>-->
+        <!--<span><a title="注册" href="/reg">register</a></span>-->
+    <!--</nav>-->
+    <!--<article>-->
+    <!--<div class="container">-->
+        <!--<form class="col-sm-offset-4 col-sm-4 form-horizontal" role="form" method="post" action="192.168.31.159:3000/users/reg">-->
+            <!--<fieldset>-->
+                <!--<% if(locals.islogin) { %>-->
+                <!--用户：<h3> <%= test %></h3>已经登陆。<br>-->
+                <!--<a class="btn" href="/logout">登出</a>-->
+                <!--<% } else{ %>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="col-sm-3 control-label" for="username">用户名</label>-->
+                    <!--<div class="col-sm-9">-->
+                        <!--<input type="text" class="form-control" id="username" name="username" placeholder="用户名" required>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="col-sm-3 control-label" for="password">密码</label>-->
+                    <!--<div class="col-sm-9">-->
+                        <!--<input type="password" class="form-control" id="password" name="password" placeholder="密码" required>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<div class="col-sm-offset-3 col-sm-9">-->
+                        <!--<button type="submit" class="btn btn-primary">登录</button>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<% } %>-->
+            <!--</fieldset>-->
+        <!--</form>-->
+
+    <!--</div>-->
+    <!--</article>-->
+    <!--</body>-->
+    <!--</html>-->
+
+</main>
+
+<footer>
+    <div>
+        <p class="t2">杭州电子科技大学&nbsp;&nbsp;&nbsp;&nbsp;创新实践交流平台</p>
+        <p class="t2">©2017 All Rights reserved Hangzhou Dianzi University.</p>
+    </div>
+</footer>
+
+</body>
+</html>
+

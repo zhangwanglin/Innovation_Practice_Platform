@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创新实践 - 项目展示</title>
+
+    <link type="text/css" rel="stylesheet" href="css/project_detailed.css"/>
+    <link type="text/css" rel="stylesheet" href="css/header.css"/>
+    <link type="text/css" rel="stylesheet" href="css/footer.css"/>
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/header.js"></script>
+    <script type="text/javascript" src="js/project_detailed.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="brand"><a href="index.html"><img src="img/hdu_logo.png"></a></div>
+    <ul>
+        <li><a class="t1 header-link" href="index.html">首页</a></li>
+        <li><a class="t1 header-link" href="project_show.html">项目展示</a></li>
+        <li><a class="t1 header-link" href="resource_share.html">资源共享</a></li>
+        <li><a class="t1 header-link" href="user_center.html">个人中心</a></li>
+        <li id="btnLogin"><button class="login t1"><a href="login.html">登录</a></button></li>
+        <li id="userCenter"><button class="login t1"><a href="#"></a></button></li>
+    </ul>
+</header>
+
+<main>
+    <div class="container">
+        <div class="article-head">
+            <h1 class="article-head-title" id="title">
+            </h1>
+            <h2 class="article-head-author" id="author">
+            </h2>
+            <p class="article-head-pubTime" id="pubTime">
+            </p>
+        </div>
+        <div class="article-body" id="article">
+        </div>
+        <div class="article-footer">
+            <!--<ul class="article-footer-communication">-->
+                <!--<li><button>点赞</button></li>-->
+                <!--<li><button>评论</button></li>-->
+            <!--</ul>-->
+            <ul class="article-footer-operation">
+                <li><button id="articlePrev">上一篇</button></li>
+                <li><button id="articleNext">下一篇</button></li>
+                <!--<li><button id="backToTop">回到顶部</button></li>-->
+                <li><button id="backToProjectShow">返回项目展示页</button></li>
+            </ul>
+            <div class="article-footer-comments">
+                <textarea class="article-footer-comments-input" id="commentInput" rows="2" placeholder="我想说两句..."></textarea>
+                <div class="article-footer-comments-operation">
+                    <!--<div class="article-footer-comments-expression"></div>-->
+                    <input type="button" class="article-footer-comments-submit t2" id="commentSubmit" value="评论">
+                </div>
+            </div>
+        </div>
+        <div class="article-comments" id="articleComments">
+            <!--<div class="article-comments-unit">-->
+                <!--<h3 class="article-comments-unit-username" id="commentUsername">name:</h3>-->
+                <!--<div class="article-comments-unit-content" id="commentContent">aaaa</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div>
+        <p class="t2">杭州电子科技大学&nbsp;&nbsp;&nbsp;&nbsp;创新实践交流平台</p>
+        <p class="t2">©2017 All Rights reserved Hangzhou Dianzi University.</p>
+    </div>
+</footer>
+
+</body>
+</html>

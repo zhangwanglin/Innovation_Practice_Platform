@@ -1,0 +1,124 @@
+header {
+    height: 110px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 20px 35px 5px 35px;
+    background-color: white;
+    box-shadow: 0px 0px 40px #888888;
+    z-index: 99;
+}
+
+header .brand {
+    float: left;
+    width: 200px;
+    height: 70px;
+    padding-top: 5px;
+}
+
+header .brand a {
+    float: left;
+}
+
+header ul {
+    list-style-type: none;
+    margin-left: 45px;
+    padding-top: 10px;
+    width: 100%;
+    flex-direction: row;
+}
+
+header ul li {
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-link {
+    float: left;
+    color: #0e0e0e;
+    height: 78%;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+@keyframes select {
+    to {
+        text-shadow: 1px 1px 2px #CCCCCC;
+    }
+}
+
+.header-link:hover {
+    animation: select 350ms forwards;
+}
+
+#btnLogin, #userCenter {
+    float: right;
+}
+
+.login {
+    margin-top: 8px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background: none;
+    border: 0px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #0e0e0e;
+}
+
+
+
+@keyframes select2 {
+    to {
+        background-color: whitesmoke;
+        box-shadow: #333333 0px 0px 5px;
+        text-shadow: 1px 1px 2px #CCCCCC;
+        color: #0e0e0e;
+    }
+}
+
+#btnLogin button:hover, #userCenter button:hover {
+    animation: select2 350ms forwards;
+}
+
+#selected {
+    border-bottom: 3px solid darkblue;
+    text-shadow: 1px 1px 2px #CCCCCC;
+}
+
+#userCenter {
+    display: none;
+}
+
+/*!* For tablets & smart phones *!*/
+/*@media (max-width: 767px) {*/
+    /*header {*/
+        /*width: auto;*/
+    /*}*/
+/*}*/
+
+/*!* For smartphones *!*/
+/*@media (max-width: 480px) {*/
+    /*header {*/
+        /*width: auto;*/
+    /*}*/
+/*}*/
+
+/*!* For smaller displays like laptops *!*/
+/*@media (min-width: 768px) and (max-width: 979px) {*/
+    /*header {*/
+        /*width: auto;*/
+    /*}*/
+/*}*/
+
+/*!* For larger displays *!*/
+/*@media (min-width: 1200px) {*/
+    /*header {*/
+        /*width: auto;*/
+    /*}*/
+/*}*/

@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid red;
+}
+
+body {
+    position: relative;
+    /*background-color: #dfdfdf;*/
+    background-image: url("../img/main-bg.png");
+    background-size: 100% auto;
+    font-family: 微软雅黑;
+}
+
+main {
+    display: flex;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+}
+
+.main-head {
+
+}
+
+.main-concern-name {
+
+}
+
+.main-trends {
+
+}
+
+.main-concern-trends {
+
+}
+
+main div p {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.t1 {
+    font-size: 16px;
+}
+
+.t2 {
+    font-size: 13px;
+}
